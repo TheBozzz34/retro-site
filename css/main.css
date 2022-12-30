@@ -36,8 +36,7 @@ html {
 .header {
   margin: auto;
   position: relative;
-  border-bottom: 1px solid #0bb0bf;
-  border-bottom-style: dotted;
+  border-bottom: 1px dotted #0bb0bf;
   width: 55%;
   text-align: center;
   padding: .5rem;
@@ -94,6 +93,21 @@ html {
   margin-right: .5%;
   top: .2rem;
   position: relative;
+}
+.about {
+  position: relative;
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: .5%;
+  left: .5%;
+  color: #0bb0bf;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+.custom_li {
+  float: left;
+  clear: both;
 }
 
 /* for Firefox */
