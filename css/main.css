@@ -2,8 +2,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 :root {
-  --card-height: 70vh;
-  --card-width: calc(var(--card-height) / 1);
+  --card-height: 60%;
+  --card-width: calc(var(--card-height) / 1.4);
 }
 
 
